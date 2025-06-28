@@ -1,4 +1,5 @@
 import { Logo } from "@/components/Logo";
+import NavTabs from "@/components/NavTabs";
 
 // src/components/navigation/Header.tsx
 export function Header() {
@@ -10,7 +11,7 @@ export function Header() {
           <Logo />
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex">{/* Nav items */}</nav>
+          <NavTabs />
         </div>
       </div>
     </header>
