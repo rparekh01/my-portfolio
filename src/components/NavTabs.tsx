@@ -1,21 +1,19 @@
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Button } from "./ui/button";
 
 export default function NavTabs() {
   const navItems = [
     { value: "about", label: "About", href: "#about" },
     { value: "experience", label: "Experience", href: "#experience" },
-    { value: "work", label: "Work", href: "#work" },
+    { value: "projects", label: "Projects", href: "#projects" },
     { value: "contact", label: "Contact", href: "#contact" },
   ];
   return (
-    <Tabs defaultValue="account" className="w-[400px]">
-      <TabsList>
-        {navItems.map((item) => (
-          <TabsTrigger key={item.value} value={item.value} asChild>
-            <a href={item.href}>{item.label}</a>
-          </TabsTrigger>
-        ))}
-      </TabsList>
-    </Tabs>
+    <nav className="flex gap-2">
+      {navItems.map((item) => (
+        <Button key={item.href} variant="ghost" size="sm" asChild>
+          <a href={item.href}>{item.label}</a>
+        </Button>
+      ))}
+    </nav>
   );
 }
