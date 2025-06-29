@@ -1,4 +1,4 @@
-import { Header } from "@/components/ui/navigation/Header";
+import { Header } from "@/components/navigation/Header";
 import "./globals.css";
 
 export default function RootLayout({
