@@ -1,5 +1,4 @@
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import Link from "next/link";
 
 export default function NavTabs() {
   const navItems = [
@@ -13,7 +12,7 @@ export default function NavTabs() {
       <TabsList>
         {navItems.map((item) => (
           <TabsTrigger key={item.value} value={item.value} asChild>
-            <Link href={item.href}>{item.label}</Link>
+            <a href={item.href}>{item.label}</a>
           </TabsTrigger>
         ))}
       </TabsList>
