@@ -1,10 +1,7 @@
 export default function Hero() {
   return (
-    <section
-      id="hero"
-      className="min-h-screen bg-slate-900 text-white flex items-center"
-    >
-      <div className="container mx-auto px-6">
+    <section id="hero" className="page-layout">
+      <div className="page-container">
         <p className="text-teal-400 font-mono text-sm mb-4">Hi, My name is</p>
         <h1 className="text-5xl md:text-7xl font-bold text-slate-200 mb-4">
           Raj Parekh
@@ -18,12 +15,15 @@ export default function Hero() {
           developing a highly personlized
           <a
             href="https://www.magmutual.com/products/onemodel"
-            className="px-1 text-teal-400"
+            className="px-1 text-teal-400 hover:text-teal-200"
           >
             product
           </a>
           at
-          <a href="https://www.magmutual.com/" className="pl-1 text-teal-400">
+          <a
+            href="https://www.magmutual.com/"
+            className="pl-1 text-teal-400 hover:text-teal-200"
+          >
             MagMutual
           </a>
           .

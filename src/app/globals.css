@@ -120,3 +120,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.page-layout {
+  @apply min-h-screen bg-slate-900 text-white flex items-center;
+}
+
+.page-container {
+  @apply container mx-auto px-6;
+}
