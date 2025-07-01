@@ -20,7 +20,7 @@ export default function Hero() {
             href="https://www.magmutual.com/products/onemodel"
             className="px-1 text-teal-400"
           >
-            sales application
+            product
           </a>
           at
           <a href="https://www.magmutual.com/" className="pl-1 text-teal-400">
