@@ -11,22 +11,8 @@ export default function Hero() {
         </h2>
         <p className="text-slate-200 text-lg mb-12 leading-relaxed max-w-2xl">
           I&apos;m full-stack software engineer specializing in building
-          exceptional digital experinces. Currently, I&apos;m focusing on
-          developing a highly personlized
-          <a
-            href="https://www.magmutual.com/products/onemodel"
-            className="px-1 text-teal-400 hover:text-teal-200"
-          >
-            product
-          </a>
-          at
-          <a
-            href="https://www.magmutual.com/"
-            className="pl-1 text-teal-400 hover:text-teal-200"
-          >
-            MagMutual
-          </a>
-          .
+          exceptional digital experinces. Currently, building enterprise
+          applicaiton.
         </p>
       </div>
     </section>
