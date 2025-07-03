@@ -20,7 +20,7 @@ export default function NavTabs() {
       </nav>
       <Button
         variant="ghost"
-        className=" border-1 rounded-0.5 hover:bg-transparent text-teal-400 border-teal-400 hover:text-teal-200 hover:border-teal-200 hover:cursor-pointer mr-3"
+        className=" border rounded-sm hover:bg-transparent text-teal-400 border-teal-400 hover:text-teal-200 hover:border-teal-200 hover:cursor-pointer mr-3"
       >
         Resume
       </Button>
