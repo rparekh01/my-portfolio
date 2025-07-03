@@ -30,25 +30,42 @@ export default function Experience() {
             using 3D simulation and generate optimized coverages.
           </p>
         </div>
-        <h2 className="text-lg md:text-lg font-bold text-slate-200 mb-4">
+        <h2 className="text-lg md:text-lg font-bold text-slate-200 pb-1">
           Responsibilities
-          <div className="flex items-start space-x-3">
-            <span className="text-teal-400 mt-1">▹</span>
-            <span className="text-slate-300">
-              Develop and maintain application using React and TypeScript for
-              frontend, Java/SpringBoot for backend, and Python API for
-              specialized policy calculations.
-            </span>
-          </div>
-          <p></p>
-          <p>
-            Help with finallizing design decisions of enterprise level
-            application.
-          </p>
-          <p>
-            Write tests for UI using Playwright and springBoot API using JUnit.
-          </p>
         </h2>
+        <p className="text-slate-400 max-w-2xl">As a full-stack engieer,</p>
+        <ul className="space-y-3">
+          <li className="flex items-start space-x-3">
+            <span className="text-teal-400 flex-shrink-0">▹</span>
+            <span className="text-slate-300">
+              I develop an enterprise level application using React and
+              TypeScript for frontend, Java/SpringBoot for backend, and also a
+              Python API for specialized policy calculations.
+            </span>
+          </li>
+          <li className="flex items-start space-x-3">
+            <span className="text-teal-400  flex-shrink-0">▹</span>
+            <span className="text-slate-300">
+              collaborate with the design team by offering programmatic insights
+              to guide design decisions for enterprise applications.
+            </span>
+          </li>
+          <li className="flex items-start space-x-3">
+            <span className="text-teal-400 flex-shrink-0">▹</span>
+            <span className="text-slate-300">
+              Create and maintain interactive 3D components using Three.js for
+              data visualization.
+            </span>
+          </li>
+          <li className="flex items-start space-x-3">
+            <span className="text-teal-400 flex-shrink-0">▹</span>
+            <span className="text-slate-300">
+              Write integration tests for UI using Playwright and unit tests for
+              springBoot API using JUnit. My team has achieved and maintined 80%
+              test coverage for every repository that we own!
+            </span>
+          </li>
+        </ul>
       </div>
     </section>
   );
