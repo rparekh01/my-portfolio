@@ -122,7 +122,7 @@
 }
 
 .page-layout {
-  @apply min-h-screen bg-slate-900 text-white flex items-center;
+  @apply min-h-[calc(100vh-4rem)] bg-slate-900 text-white flex items-center;
 }
 
 .page-container {
