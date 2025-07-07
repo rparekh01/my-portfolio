@@ -1,8 +1,8 @@
 export default function Experience() {
   return (
-    <section id="#experience" className="page-layout">
+    <section className="page-layout">
       <div className="page-container">
-        <h1 className="text-4xl md:text-4xl font-bold text-slate-200 pb-4 underline decoration-teal-400">
+        <h1 className="text-4xl md:text-4xl font-bold text-slate-200 pb-12 underline decoration-teal-400">
           Experience
         </h1>
         <a
@@ -11,6 +11,7 @@ export default function Experience() {
         >
           MagMutual Insurance Company
         </a>
+
         <h2 className="text-lg md:text-lg font-bold text-slate-200 pb-1">
           Full-stack Software Engineer
         </h2>
