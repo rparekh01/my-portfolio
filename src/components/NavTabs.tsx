@@ -5,9 +5,9 @@ import { Separator } from "./ui/separator";
 
 export default function NavTabs() {
   const navItems = [
-    { value: "experience", label: "Experience", href: "/experience" },
-    { value: "projects", label: "Projects", href: "/projects" },
-    { value: "about", label: "About", href: "/about" },
+    { value: "about", label: "About", href: "#about" },
+    { value: "experience", label: "Experience", href: "#experience" },
+    { value: "projects", label: "Projects", href: "#projects" },
   ];
   return (
     <div className="flex items-center">
