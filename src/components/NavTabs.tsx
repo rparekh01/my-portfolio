@@ -20,7 +20,7 @@ export default function NavTabs() {
       </nav>
       <Button
         variant="ghost"
-        className=" border rounded-sm hover:bg-transparent text-teal-400 border-teal-400 hover:text-teal-200 hover:border-teal-200 hover:cursor-pointer mr-3"
+        className=" border rounded-sm hover:bg-transparent text-violet-400 border-violet-400 hover:text-violet-300 hover:shadow-violet-500/10  hover:border-violet-300 hover:cursor-pointer mr-3"
       >
         Resume
       </Button>
@@ -30,12 +30,15 @@ export default function NavTabs() {
       />
 
       <div className="flex gap-3">
-        <a href="https://github.com/rparekh01" className="hover:text-teal-200">
+        <a
+          href="https://github.com/rparekh01"
+          className="hover:text-violet-300"
+        >
           <LiaGithub className="size-7 min-w-fit" />
         </a>
         <a
           href="https://www.linkedin.com/in/r-p/"
-          className="hover:text-teal-200"
+          className="hover:text-violet-300"
         >
           <LiaLinkedin className="size-7 min-w-fit" />
         </a>

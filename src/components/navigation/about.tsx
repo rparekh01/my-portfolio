@@ -17,7 +17,7 @@ export default function About() {
         {/* Technical Background Section */}
         <div className="mb-10">
           <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
-            <span className="text-teal-400">▹</span>
+            <span className="text-violet-400">▹</span>
             Technical Background
           </h2>
           <div className="space-y-4 text-slate-300 leading-relaxed">
@@ -29,8 +29,8 @@ export default function About() {
             </p>
             <p>
               I&apos;ve also explored{" "}
-              <span className="text-teal-400 font-medium">Three.js</span> for 3D
-              web integration, which opened up fascinating possibilities for
+              <span className="text-violet-400 font-medium">Three.js</span> for
+              3D web integration, which opened up fascinating possibilities for
               interactive experiences.
             </p>
           </div>
@@ -40,7 +40,7 @@ export default function About() {
         {/* My Journey Section */}
         <div className="mb-10">
           <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
-            <span className="text-teal-400">▹</span>
+            <span className="text-violet-400">▹</span>
             My Journey
           </h2>
           <div className="space-y-4 text-slate-300 leading-relaxed">
@@ -48,7 +48,7 @@ export default function About() {
               Video games sparked my interest in coding—I wanted to understand
               how they worked. This curiosity led me to computer science, and
               eventually to a{" "}
-              <span className="text-teal-400 font-medium">
+              <span className="text-violet-400 font-medium">
                 Master of Computer Science
               </span>{" "}
               from UCF. I started my professional journey in 2021.
@@ -61,14 +61,14 @@ export default function About() {
         {/* Development Philosophy Section */}
         <div className="mb-10">
           <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
-            <span className="text-teal-400">▹</span>
+            <span className="text-violet-400">▹</span>
             Development Philosophy
           </h2>
           <div className="space-y-4 text-slate-300 leading-relaxed">
             <p>
               I build applications that deliver seamless user experiences while
               prioritizing developer experience. Before coding, I always ask:{" "}
-              <span className="text-teal-400 font-medium">
+              <span className="text-violet-400 font-medium">
                 &quot;Why am I building this?&quot;
               </span>{" "}
               Understanding the problem being solved drives better solutions,
@@ -82,7 +82,7 @@ export default function About() {
         {/* Technical Approach Section */}
         <div className="mb-10">
           <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
-            <span className="text-teal-400">▹</span>
+            <span className="text-violet-400">▹</span>
             Technical Approach
           </h2>
           <div className="grid md:grid-cols-2 gap-8">

@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section id="hero" className="page-layout items-center">
       <div className="page-container">
-        <p className="text-teal-400 font-mono text-sm mb-4">Hi, I&apos;m</p>
+        <p className="text-violet-400 font-mono text-sm mb-4">Hi, I&apos;m</p>
         <h1 className="text-5xl md:text-7xl font-bold text-slate-200 mb-4">
           Raj Parekh
         </h1>

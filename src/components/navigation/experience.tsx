@@ -9,7 +9,7 @@ export default function Experience() {
         </h1>
         <a
           href="https://www.magmutual.com/"
-          className=" display: block text-2xl md:text-2xl font-bold pb-6 text-teal-400 hover:text-teal-200"
+          className=" display: block text-2xl md:text-2xl font-bold pb-6 text-violet-400 hover:text-violet-300"
         >
           MagMutual Insurance Company
         </a>
@@ -24,7 +24,7 @@ export default function Experience() {
         <div className="pb-4">
           <a
             href="https://www.magmutual.com/products/onemodel"
-            className=" display: block text-m md:text-m font-bold pb-1 text-teal-400 hover:text-teal-200"
+            className=" display: block text-m md:text-m font-bold pb-1 text-violet-400 hover:text-violet-300"
           >
             MagMutual enterprise application
           </a>
@@ -42,7 +42,7 @@ export default function Experience() {
         </p>
         <ul className="space-y-3">
           <li className="flex items-start space-x-3">
-            <span className="text-teal-400 flex-shrink-0">▹</span>
+            <span className="text-violet-400 flex-shrink-0">▹</span>
             <span className="text-slate-300">
               I develop an enterprise level application using React and
               TypeScript for frontend, Java/SpringBoot for backend, and also a
@@ -50,21 +50,21 @@ export default function Experience() {
             </span>
           </li>
           <li className="flex items-start space-x-3">
-            <span className="text-teal-400  flex-shrink-0">▹</span>
+            <span className="text-violet-400  flex-shrink-0">▹</span>
             <span className="text-slate-300">
               collaborate with the design team by offering programmatic insights
               to guide design decisions for enterprise applications.
             </span>
           </li>
           <li className="flex items-start space-x-3">
-            <span className="text-teal-400 flex-shrink-0">▹</span>
+            <span className="text-violet-400 flex-shrink-0">▹</span>
             <span className="text-slate-300">
               Create and maintain interactive 3D components using Three.js for
               data visualization.
             </span>
           </li>
           <li className="flex items-start space-x-3">
-            <span className="text-teal-400 flex-shrink-0">▹</span>
+            <span className="text-violet-400 flex-shrink-0">▹</span>
             <span className="text-slate-300">
               Write integration tests for UI using Playwright and unit tests for
               springBoot API using JUnit. My team has achieved and maintained
@@ -81,73 +81,73 @@ export default function Experience() {
           <div className="flex flex-wrap gap-2">
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               React
             </Badge>
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               TypeScript
             </Badge>
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               JavaScript
             </Badge>
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               Spring Boot
             </Badge>
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               Java
             </Badge>
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               Python
             </Badge>
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               Three.js
             </Badge>
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               SQL
             </Badge>
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               Playwright
             </Badge>
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               JUnit
             </Badge>
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               Next.js
             </Badge>
             <Badge
               variant="secondary"
-              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+              className="bg-slate-800 text-violet-400 hover:bg-slate-700"
             >
               Tailwind CSS
             </Badge>
