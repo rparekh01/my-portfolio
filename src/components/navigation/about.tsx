@@ -1,6 +1,5 @@
 // import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
-import Image from "next/image";
 
 export default function About() {
   return (
@@ -13,55 +12,33 @@ export default function About() {
               About Me
             </h1>
           </div>
-
-          {/* Profile Photo */}
-          {/* <div className="flex-shrink-0">
-            <Image
-              src="/images/image-2.jpg"
-              alt="Raj Parekh"
-              width={350}
-              height={350}
-              className="w-full h-full object-cover"
-            />
-          </div> */}
         </div>
 
         {/* Technical Background Section */}
 
         <div className="mb-10">
-          <h2 className="text-2xl font-bold text-slate-200 mb-4 flex items-center gap-2">
+          <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
             <span className="text-teal-400">▹</span>
             Technical Background
           </h2>
           <div className="space-y-4 text-slate-300 leading-relaxed">
             <p>
-              I have 4+ years of building web applications in the
-              healthcare/insurance industry with React, TypeScript, Spring Boot
-              and a bit of Python. I also quite often dive into SQL when I need
-              the database admins to create new tables. I have also learned a
-              niche framework like{" "}
+              Hello! My name is Raj Parekh. I have been building web
+              applications in the finance/insurance industry for 4+ years with
+              React, TypeScript, Spring Boot and a bit of Python. I also quite
+              often dive into SQL when I need the database admins to create new
+              tables. I have also learned a niche framework like{" "}
               <span className="text-teal-400 font-medium">Three.js</span> to
               integrate 3D into react apps which is absolutely fascinating to
               me.
             </p>
-            <p>
-              While I cannot go into too much details, one of the project that I
-              am actively working on at my current company, uses{" "}
-              <span className="text-teal-400 font-medium">
-                3D for data visualization
-              </span>
-              . I have also started to integrate AI IDE like VS Code with
-              Copilot and Cursor in my development suite for both professionally
-              and for my personal projects.
-            </p>
           </div>
         </div>
-
         <Separator className="my-8 bg-slate-700" />
 
         {/* My Journey Section */}
         <div className="mb-10">
-          <h2 className="text-2xl font-bold text-slate-200 mb-4 flex items-center gap-2">
+          <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
             <span className="text-teal-400">▹</span>
             My Journey
           </h2>
@@ -69,15 +46,11 @@ export default function About() {
             <p>
               My interest in software development started because of video
               games, I wanted to understand how they worked. So I started to
-              learn how to build video games through online tutorials, I even
-              enrolled in college as Animation major but quickly realized my
-              interest in coding because I wanted to go even deeper and learn
-              how the software that is used to create animations are built.
-            </p>
-            <p>
-              So I switched my major to computer science. I finally started my
-              journey in software engineering industry in 2021 after I graduated
-              with a{" "}
+              learn how to build video games through online tutorials, and
+              quickly realized my interest in coding. So I enrolled in college
+              with major in computer science. Fast forward few years and I
+              finally started my journey in software engineering industry in
+              2021 after graduating with a{" "}
               <span className="text-teal-400 font-medium">
                 Master of Computer Science
               </span>{" "}
@@ -90,7 +63,7 @@ export default function About() {
 
         {/* Development Philosophy Section */}
         <div className="mb-10">
-          <h2 className="text-2xl font-bold text-slate-200 mb-4 flex items-center gap-2">
+          <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
             <span className="text-teal-400">▹</span>
             Development Philosophy
           </h2>
@@ -116,7 +89,7 @@ export default function About() {
 
         {/* Technical Approach Section */}
         <div className="mb-10">
-          <h2 className="text-2xl font-bold text-slate-200 mb-4 flex items-center gap-2">
+          <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
             <span className="text-teal-400">▹</span>
             Technical Approach
           </h2>
@@ -126,8 +99,8 @@ export default function About() {
                 Frontend Development
               </h3>
               <p className="text-slate-300 leading-relaxed">
-                When I'm working on creating UI, I love to create seamless user
-                experience, I like to put myself in the shoes of users and
+                When I&apos;m working on creating UI, I love to create seamless
+                user experience, I like to put myself in the shoes of users and
                 ensure every interaction feels natural and intuitive.
               </p>
             </div>
@@ -145,26 +118,6 @@ export default function About() {
         </div>
 
         <Separator className="my-8 bg-slate-700" />
-
-        {/* Quality & Testing Section */}
-        <div className="mb-10">
-          <h2 className="text-2xl font-bold text-slate-200 mb-4 flex items-center gap-2">
-            <span className="text-teal-400">▹</span>
-            Quality & Testing
-          </h2>
-          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-6">
-            <p className="text-slate-300 leading-relaxed">
-              I've also helped achieve{" "}
-              <span className="text-teal-400">80% test coverage</span> for all
-              of the repositories owned by my team using{" "}
-              <span className="text-teal-400 font-medium">Playwright</span> for
-              integration testing and{" "}
-              <span className="text-teal-400 font-medium">JUnit</span> for the
-              APIs while also scanning code to maintain industry standard before
-              pushing to production.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
