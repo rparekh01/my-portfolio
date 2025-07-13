@@ -8,7 +8,7 @@ export default function About() {
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row items-start gap-8">
           <div className="flex-1">
-            <h1 className="text-4xl md:text-4xl font-bold text-slate-200 pb-12 underline decoration-teal-400">
+            <h1 className="text-4xl md:text-4xl font-bold text-slate-200 pb-12 underline decoration-violet-400">
               About Me
             </h1>
           </div>
@@ -108,8 +108,6 @@ export default function About() {
             </div>
           </div>
         </div>
-
-        <Separator className="my-8 bg-slate-700" />
       </div>
     </section>
   );

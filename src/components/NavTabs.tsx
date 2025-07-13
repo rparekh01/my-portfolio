@@ -13,20 +13,26 @@ export default function NavTabs() {
     <div className="flex items-center">
       <nav className="flex">
         {navItems.map((item) => (
-          <Button key={item.href} variant="ghost" size="sm" asChild>
+          <Button
+            key={item.href}
+            variant="ghost"
+            size="sm"
+            asChild
+            className="hover:text-violet-300 hover:shadow-violet-500/10 hover:bg-transparent"
+          >
             <Link href={item.href}>{item.label}</Link>
           </Button>
         ))}
       </nav>
       <Button
         variant="ghost"
-        className=" border rounded-sm hover:bg-transparent text-violet-400 border-violet-400 hover:text-violet-300 hover:shadow-violet-500/10  hover:border-violet-300 hover:cursor-pointer mr-3"
+        className=" border rounded-sm hover:bg-transparent text-violet-400 border-violet-400 hover:text-violet-300 hover:shadow-violet-500/10  hover:border-violet-300 hover:cursor-pointer mx-3"
       >
         Resume
       </Button>
       <Separator
         orientation="vertical"
-        className="data-[orientation=vertical]:h-6 w-px mr-3"
+        className="data-[orientation=vertical]:h-6 w-px ml-3 mr-6"
       />
 
       <div className="flex gap-3">

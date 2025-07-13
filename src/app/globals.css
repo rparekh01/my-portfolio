@@ -122,7 +122,7 @@
 }
 
 .page-layout {
-  @apply min-h-[calc(100vh-4rem)] bg-zinc-900 text-white flex pt-10;
+  @apply min-h-[calc(100vh)] bg-zinc-900 text-white flex;
 }
 
 .page-container {
