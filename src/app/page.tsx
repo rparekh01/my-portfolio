@@ -7,20 +7,18 @@ export default function Page() {
   return (
     <main>
       <div className="App">
-        <main>
-          <section id="hero">
-            <Hero />
-          </section>
-          <section id="about">
-            <About />
-          </section>
-          <section id="experience">
-            <Experience />
-          </section>
-          <section id="projects">
-            <Projects />
-          </section>
-        </main>
+        <section id="hero">
+          <Hero />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="experience">
+          <Experience />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
       </div>
     </main>
   );
