@@ -39,12 +39,14 @@ export default function NavTabs() {
         <a
           href="https://github.com/rparekh01"
           className="hover:text-violet-300"
+          target="_blank"
         >
           <LiaGithub className="size-7 min-w-fit" />
         </a>
         <a
           href="https://www.linkedin.com/in/r-p/"
           className="hover:text-violet-300"
+          target="_blank"
         >
           <LiaLinkedin className="size-7 min-w-fit" />
         </a>

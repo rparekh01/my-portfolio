@@ -122,9 +122,13 @@
 }
 
 .page-layout {
-  @apply min-h-[calc(100vh)] bg-zinc-900 text-white flex;
+  @apply min-h-[calc(100vh)] bg-zinc-900 text-white flex pb-50;
 }
 
 .page-container {
   @apply container mx-auto px-6;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
 }
