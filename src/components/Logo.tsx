@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { TbCircleLetterR } from "react-icons/tb";
 
 export function Logo() {
   return (
@@ -37,9 +36,6 @@ export function Logo() {
             R
           </text>
         </svg>
-
-        {/* Optional: Subtle glow effect on hover */}
-        <div className="absolute inset-0 bg-violet-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-lg" />
       </div>
     </Link>
   );
