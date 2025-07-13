@@ -1,3 +1,5 @@
+import { Badge } from "@/components/ui/badge";
+
 export default function Experience() {
   return (
     <section className="page-layout">
@@ -70,24 +72,88 @@ export default function Experience() {
             </span>
           </li>
         </ul>
+
+        {/* Tech Stack */}
+        <div className="mt-12">
+          <h3 className="text-lg font-semibold text-slate-200 mb-4">
+            Technologies I&apos;m actively working with actively
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              React
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              TypeScript
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              JavaScript
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              Spring Boot
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              Java
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              Python
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              Three.js
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              SQL
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              Playwright
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              JUnit
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              Next.js
+            </Badge>
+            <Badge
+              variant="secondary"
+              className="bg-slate-800 text-teal-400 hover:bg-slate-700"
+            >
+              Tailwind CSS
+            </Badge>
+          </div>
+        </div>
       </div>
     </section>
   );
 }
-
-// I&apos;m focusing on
-//           developing a highly personlized
-//           <a
-//             href="https://www.magmutual.com/products/onemodel"
-//             className="px-1 text-teal-400 hover:text-teal-200"
-//           >
-//             product
-//           </a>
-//           at
-//           <a
-//             href="https://www.magmutual.com/"
-//             className="pl-1 text-teal-400 hover:text-teal-200"
-//           >
-//             MagMutual
-//           </a>
-//           .

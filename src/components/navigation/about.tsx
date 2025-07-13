@@ -15,7 +15,6 @@ export default function About() {
         </div>
 
         {/* Technical Background Section */}
-
         <div className="mb-10">
           <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
             <span className="text-teal-400">▹</span>
@@ -23,14 +22,16 @@ export default function About() {
           </h2>
           <div className="space-y-4 text-slate-300 leading-relaxed">
             <p>
-              Hello! My name is Raj Parekh. I have been building web
-              applications in the finance/insurance industry for 4+ years with
-              React, TypeScript, Spring Boot and a bit of Python. I also quite
-              often dive into SQL when I need the database admins to create new
-              tables. I have also learned a niche framework like{" "}
-              <span className="text-teal-400 font-medium">Three.js</span> to
-              integrate 3D into react apps which is absolutely fascinating to
-              me.
+              Hello! I&apos;m Raj Parekh, a full-stack engineer with 4+ years
+              building web applications in finance/insurance industry. My
+              toolkit includes React, TypeScript, Spring Boot, Python, and SQL
+              for database work.
+            </p>
+            <p>
+              I&apos;ve also explored{" "}
+              <span className="text-teal-400 font-medium">Three.js</span> for 3D
+              web integration, which opened up fascinating possibilities for
+              interactive experiences.
             </p>
           </div>
         </div>
@@ -44,17 +45,13 @@ export default function About() {
           </h2>
           <div className="space-y-4 text-slate-300 leading-relaxed">
             <p>
-              My interest in software development started because of video
-              games, I wanted to understand how they worked. So I started to
-              learn how to build video games through online tutorials, and
-              quickly realized my interest in coding. So I enrolled in college
-              with major in computer science. Fast forward few years and I
-              finally started my journey in software engineering industry in
-              2021 after graduating with a{" "}
+              Video games sparked my interest in coding—I wanted to understand
+              how they worked. This curiosity led me to computer science, and
+              eventually to a{" "}
               <span className="text-teal-400 font-medium">
                 Master of Computer Science
               </span>{" "}
-              from University of Central Florida.
+              from UCF. I started my professional journey in 2021.
             </p>
           </div>
         </div>
@@ -69,18 +66,13 @@ export default function About() {
           </h2>
           <div className="space-y-4 text-slate-300 leading-relaxed">
             <p>
-              I love to build apps that can deliver seamless user experience and
-              are also developed with developer experience in mind. Before
-              starting to develop the app, I like to think about{" "}
+              I build applications that deliver seamless user experiences while
+              prioritizing developer experience. Before coding, I always ask:{" "}
               <span className="text-teal-400 font-medium">
-                why am I building this
+                &quot;Why am I building this?&quot;
               </span>{" "}
-              and what problem will it solve?
-            </p>
-            <p>
-              If this is an enterprise level app then it is obvious that this
-              question has been answered but even then if the ongoing project is
-              being enhanced with new features, this question is still vital.
+              Understanding the problem being solved drives better solutions,
+              whether it&apos;s a new app or enhancing existing features.
             </p>
           </div>
         </div>
@@ -99,9 +91,9 @@ export default function About() {
                 Frontend Development
               </h3>
               <p className="text-slate-300 leading-relaxed">
-                When I&apos;m working on creating UI, I love to create seamless
-                user experience, I like to put myself in the shoes of users and
-                ensure every interaction feels natural and intuitive.
+                I focus on creating intuitive interfaces by putting myself in
+                users&apos; shoes. Every interaction should feel natural and
+                effortless.
               </p>
             </div>
             <div className="space-y-3">
@@ -109,9 +101,9 @@ export default function About() {
                 Backend Development
               </h3>
               <p className="text-slate-300 leading-relaxed">
-                I think that API development requires a lot of focus on
-                architecture, optimization, seamless data validation between
-                front-end and back-end and structuring data in a meaningful way.
+                I believe that API development requires solid architecture,
+                optimization, and seamless data validation. I structure data
+                meaningfully for both frontend consumption and maintainability.
               </p>
             </div>
           </div>
