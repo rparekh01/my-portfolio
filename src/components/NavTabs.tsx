@@ -9,6 +9,10 @@ export default function NavTabs() {
     { value: "experience", label: "Experience", href: "#experience" },
     { value: "projects", label: "Projects", href: "#projects" },
   ];
+
+  const handleResumeClick = () => {
+    window.open("/resume.pdf", "_blank");
+  };
   return (
     <div className="flex items-center">
       <nav className="flex">
@@ -27,6 +31,7 @@ export default function NavTabs() {
       <Button
         variant="ghost"
         className=" border rounded-sm hover:bg-transparent text-violet-400 border-violet-400 hover:text-violet-300 hover:shadow-violet-500/10  hover:border-violet-300 hover:cursor-pointer mx-3"
+        onClick={handleResumeClick}
       >
         Resume
       </Button>
