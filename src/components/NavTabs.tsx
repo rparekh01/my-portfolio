@@ -7,7 +7,7 @@ export default function NavTabs() {
   const navItems = [
     { value: "about", label: "About", href: "#about" },
     { value: "experience", label: "Experience", href: "#experience" },
-    { value: "projects", label: "Projects", href: "#projects" },
+    // { value: "projects", label: "Projects", href: "#projects" },
   ];
 
   const handleResumeClick = () => {

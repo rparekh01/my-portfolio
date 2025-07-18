@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import About from "@/components/navigation/about";
 import Experience from "@/components/navigation/experience";
-import Projects from "@/components/navigation/projects";
+// import Projects from "@/components/navigation/projects";
 
 export default function Page() {
   return (
@@ -16,9 +16,9 @@ export default function Page() {
         <section id="experience">
           <Experience />
         </section>
-        <section id="projects">
+        {/* <section id="projects">
           <Projects />
-        </section>
+        </section> */}
       </div>
     </main>
   );

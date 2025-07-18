@@ -22,10 +22,9 @@ export default function About() {
           </h2>
           <div className="space-y-4 text-slate-300 leading-relaxed">
             <p>
-              Hello! I&apos;m Raj Parekh, a full-stack engineer with 4+ years
-              building web applications in finance/insurance industry. My
-              toolkit includes React, TypeScript, Spring Boot, Python, and SQL
-              for database work.
+              Hello! I&apos;m a full-stack engineer with 4+ years building web
+              applications in finance/insurance industry. My toolkit includes
+              React, TypeScript, Spring Boot, Python, and SQL for database work.
             </p>
             <p>
               I&apos;ve also explored{" "}
