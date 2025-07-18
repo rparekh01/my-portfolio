@@ -1,5 +1,6 @@
 // import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -15,43 +16,58 @@ export default function About() {
         </div>
 
         {/* Technical Background Section */}
-        <div className="mb-10">
-          <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
-            <span className="text-violet-400">▹</span>
-            Technical Background
-          </h2>
-          <div className="space-y-4 text-slate-300 leading-relaxed">
-            <p>
-              Hello! I&apos;m a full-stack engineer with 4+ years building web
-              applications in finance/insurance industry. My toolkit includes
-              React, TypeScript, Spring Boot, Python, and SQL for database work.
-            </p>
-            <p>
-              I&apos;ve also explored{" "}
-              <span className="text-violet-400 font-medium">Three.js</span> for
-              3D web integration, which opened up fascinating possibilities for
-              interactive experiences.
-            </p>
-          </div>
-        </div>
-        <Separator className="my-8 bg-slate-700" />
+        <div className="flex justify-between">
+          <div className="max-w-4xl">
+            <div className="mb-10">
+              <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
+                <span className="text-violet-400">▹</span>
+                Technical Background
+              </h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+                <p>
+                  Hello! I&apos;m a full-stack engineer with 4+ years building
+                  web applications in finance/insurance industry. My toolkit
+                  includes React, TypeScript, Spring Boot, Python, and SQL for
+                  database work.
+                </p>
+                <p>
+                  I&apos;ve also explored{" "}
+                  <span className="text-violet-400 font-medium">Three.js</span>{" "}
+                  for 3D web integration, which opened up fascinating
+                  possibilities for interactive experiences.
+                </p>
+              </div>
+            </div>
+            <Separator className="my-8 bg-slate-700" />
 
-        {/* My Journey Section */}
-        <div className="mb-10">
-          <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
-            <span className="text-violet-400">▹</span>
-            My Journey
-          </h2>
-          <div className="space-y-4 text-slate-300 leading-relaxed">
-            <p>
-              Video games sparked my interest in coding—I wanted to understand
-              how they worked. This curiosity led me to computer science, and
-              eventually to a{" "}
-              <span className="text-violet-400 font-medium">
-                Master of Computer Science
-              </span>{" "}
-              from UCF. I started my professional journey in 2021.
-            </p>
+            {/* My Journey Section */}
+            <div className="mb-10">
+              <h2 className="text-xl font-bold text-slate-200 mb-4 flex items-center gap-2">
+                <span className="text-violet-400">▹</span>
+                My Journey
+              </h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+                <p>
+                  Video games sparked my interest in coding—I wanted to
+                  understand how they worked. This curiosity led me to computer
+                  science, and eventually to a{" "}
+                  <span className="text-violet-400 font-medium">
+                    Master of Computer Science
+                  </span>{" "}
+                  from UCF. I started my professional journey in 2021.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex-shrink-0">
+            <Image
+              src="/pic.jpeg"
+              alt="Raj Parekh - Full-stack Software Engineer"
+              height="240"
+              width="240"
+              className="object-cover rounded-xl shadow-2xl shadow-violet-500/10 hover:scale-105 transition-transform duration-300"
+              priority
+            />
           </div>
         </div>
 

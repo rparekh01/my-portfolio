@@ -1,9 +1,7 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
-    <section id="hero" className="page-layout items-center justify-around">
-      <div className="page-container flex-1/2  max-w-lg">
+    <section id="hero" className="page-layout items-center">
+      <div className="page-container">
         <p className="text-violet-400 font-mono text-sm mb-4">Hi, I&apos;m</p>
         <h1 className="text-5xl md:text-7xl font-bold text-slate-200 mb-4">
           Raj Parekh
@@ -15,13 +13,6 @@ export default function Hero() {
           user experiences.
         </p>
       </div>
-      <Image
-        src="/pic.jpeg"
-        alt="my-pic"
-        height="200"
-        width="200"
-        style={{ objectFit: "contain" }}
-      />
     </section>
   );
 }
