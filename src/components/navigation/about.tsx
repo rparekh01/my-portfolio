@@ -27,12 +27,12 @@ export default function About() {
                 <p>
                   Hello! I&apos;m a full-stack engineer with 4+ years building
                   web applications in finance/insurance industry. My toolkit
-                  includes React, TypeScript, Spring Boot, Python, and SQL for
-                  database work.
+                  includes React, TypeScript, Next.js, Spring Boot, Python, and
+                  SQL for database work.
                 </p>
                 <p>
                   I&apos;ve also explored{" "}
-                  <span className="text-violet-400 font-medium">Three.js</span>{" "}
+                  <span className="text-violet-300 font-medium">Three.js</span>{" "}
                   for 3D web integration, which opened up fascinating
                   possibilities for interactive experiences.
                 </p>
@@ -48,13 +48,22 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <p>
-                  Video games sparked my interest in coding—I wanted to
+                  Video games sparked my interest in coding, I wanted to
                   understand how they worked. This curiosity led me to computer
                   science, and eventually to a{" "}
-                  <span className="text-violet-400 font-medium">
+                  <span className="text-violet-300 font-medium">
                     Master of Computer Science
                   </span>{" "}
-                  from UCF. I started my professional journey in 2021.
+                  from{" "}
+                  <a
+                    href="https://www.ucf.edu/"
+                    target="_blank"
+                    className="text-violet-400"
+                  >
+                    UCF
+                  </a>
+                  . Fast forward few years and I started my professional journey
+                  in 2021.
                 </p>
               </div>
             </div>
@@ -83,7 +92,7 @@ export default function About() {
             <p>
               I build applications that deliver seamless user experiences while
               prioritizing developer experience. Before coding, I always ask:{" "}
-              <span className="text-violet-400 font-medium">
+              <span className="text-violet-300 font-medium">
                 &quot;Why am I building this?&quot;
               </span>{" "}
               Understanding the problem being solved drives better solutions,
