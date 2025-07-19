@@ -2,17 +2,23 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { LiaGithub, LiaLinkedin } from "react-icons/lia";
 import { Separator } from "./ui/separator";
+import { Mail } from "lucide-react";
 
 export default function NavTabs() {
   const navItems = [
     { value: "about", label: "About", href: "#about" },
     { value: "experience", label: "Experience", href: "#experience" },
     // { value: "projects", label: "Projects", href: "#projects" },
+    { value: "contact", label: "Contact", href: "#contact" },
   ];
 
   const handleResumeClick = () => {
     window.open("/resume.pdf", "_blank");
   };
+  const handleContactClick = () => {
+    window.location.href = "parekh_raj@outlook.com";
+  };
+
   return (
     <div className="flex items-center">
       <nav className="flex">
@@ -34,6 +40,14 @@ export default function NavTabs() {
         onClick={handleResumeClick}
       >
         Resume
+      </Button>
+      <Button
+        variant="ghost"
+        className="border rounded-sm hover:bg-transparent text-violet-400 border-violet-400 hover:text-violet-300 hover:shadow-violet-500/10 hover:border-violet-300 hover:cursor-pointer flex items-center gap-2"
+        onClick={handleContactClick}
+      >
+        <Mail className="w-4 h-4" />
+        Contact
       </Button>
       <Separator
         orientation="vertical"
