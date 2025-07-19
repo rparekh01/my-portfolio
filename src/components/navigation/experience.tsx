@@ -32,9 +32,9 @@ export default function Experience() {
             OneModel
           </a>
           <p className="text-slate-300 max-w-2xl">
-            I developed this specialized sales application that retrieves client
-            policies, provides exceptional visualization of insurance coverage
-            using 3D simulation, and generates optimized coverage
+            I help develop this specialized sales application that retrieves
+            client policies, provides exceptional visualization of insurance
+            coverage using 3D simulation, and generates optimized coverage
             recommendations.
           </p>
         </div>
