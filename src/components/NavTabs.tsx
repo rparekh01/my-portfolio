@@ -16,7 +16,7 @@ export default function NavTabs() {
     window.open("/resume.pdf", "_blank");
   };
   const handleContactClick = () => {
-    window.location.href = "parekh_raj@outlook.com";
+    window.location.href = "mailto:parekh_raj@outlook.com";
   };
 
   return (
