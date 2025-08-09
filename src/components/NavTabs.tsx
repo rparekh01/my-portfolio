@@ -9,7 +9,6 @@ export default function NavTabs() {
     { value: "about", label: "About", href: "#about" },
     { value: "experience", label: "Experience", href: "#experience" },
     // { value: "projects", label: "Projects", href: "#projects" },
-    { value: "contact", label: "Contact", href: "#contact" },
   ];
 
   const handleResumeClick = () => {
