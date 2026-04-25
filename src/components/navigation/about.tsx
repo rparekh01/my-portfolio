@@ -25,16 +25,10 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <p>
-                  Hello! I&apos;m a full-stack engineer with 4+ years building
+                  Hello! I&apos;m a full-stack engineer with 5+ years building
                   web applications in finance/insurance industry. My toolkit
                   includes React, TypeScript, Next.js, Spring Boot, Python, and
                   SQL for database work.
-                </p>
-                <p>
-                  I&apos;ve also explored{" "}
-                  <span className="text-violet-300 font-medium">Three.js</span>{" "}
-                  for 3D web integration, which opened up fascinating
-                  possibilities for interactive experiences.
                 </p>
               </div>
             </div>
