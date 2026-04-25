@@ -25,10 +25,10 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <p>
-                  Hello! I&apos;m a full-stack engineer with 5+ years building
-                  web applications in finance/insurance industry. My toolkit
-                  includes React, TypeScript, Next.js, Spring Boot, Python, and
-                  SQL for database work.
+                  Hello! I&apos;m a full-stack engineer with 5 years of experience 
+                  building web applications in the finance and insurance industry. 
+                  My toolkit includes React, TypeScript, Next.js, Spring Boot, Java,
+                  Python, and SQL for database work.
                 </p>
               </div>
             </div>
@@ -103,8 +103,8 @@ export default function About() {
             <span className="text-violet-400">▹</span>
             Technical Approach
           </h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="space-y-3">
+          <div className="grid md:grid-cols-2 gap-x-8 gap-y-12">
+            <div className="space-y-2">
               <h3 className="text-lg font-semibold text-slate-200">
                 Frontend Development
               </h3>
@@ -114,7 +114,7 @@ export default function About() {
                 effortless.
               </p>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-2">
               <h3 className="text-lg font-semibold text-slate-200">
                 Backend Development
               </h3>
@@ -122,6 +122,17 @@ export default function About() {
                 I believe that API development requires solid architecture,
                 optimization, and seamless data validation. I structure data
                 meaningfully for both frontend consumption and maintainability.
+              </p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="text-lg font-semibold text-slate-200">
+                AI-Powered Development
+              </h3>
+              <p className="text-slate-300 leading-relaxed">
+                I integrate AI throughout my development workflow. 
+                Accelerating coding, conducting code reviews with GitHub 
+                Copilot, and picking up new languages faster than ever. 
+                AI isn't replacing my skills; it&apos;s amplifying them.
               </p>
             </div>
           </div>
