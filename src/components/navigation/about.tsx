@@ -132,7 +132,7 @@ export default function About() {
                 I integrate AI throughout my development workflow. 
                 Accelerating coding, conducting code reviews with GitHub 
                 Copilot, and picking up new languages faster than ever. 
-                AI isn't replacing my skills; it&apos;s amplifying them.
+                AI isn&apos;t replacing my skills; it&apos;s amplifying them.
               </p>
             </div>
           </div>
